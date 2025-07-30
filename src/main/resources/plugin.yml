@@ -1,0 +1,4 @@
+name: chiyogami-teleport-tester
+version: '1.0-SNAPSHOT'
+main: com.github.bea4dev.chiyogamiTeleportTester.ChiyogamiTeleportTester
+api-version: '1.21'
