@@ -10,7 +10,9 @@ class EventListener : Listener {
         val player = event.player
 
         if (player.isSneaking) {
-            TeleportEntity(player.location).runTaskTimer(plugin, 0, 1)
+            for (i in 0..<50) {
+                TeleportEntity(player.location).runTaskTimer(plugin, 0, 1)
+            }
         }
     }
 }
